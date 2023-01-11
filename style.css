@@ -1,0 +1,692 @@
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+ 
+    padding: 20px;
+
+}
+.awareness{
+    width: 100%;
+  
+   margin-top: 100px;
+    height: 55%;
+    background-color: green;
+}
+.inside_awarness{
+    display: inline-block;
+    color: white;
+    position: relative;
+    left: 5%;
+    top: 30px;
+    animation: slit 500ms ease-in-out forwards;
+}
+@keyframes slit {
+    0%{
+      left: -300px;
+    }
+    100%{
+        left: 5%;
+    }
+}
+.vaccine_img{
+    height: 200px;
+    position: relative;
+    top: 90px;
+    left: -190px;
+    rotate: 45deg;
+    animation: vac_img 500ms ease-in-out forwards;
+    animation-delay: 200ms;
+}
+@keyframes vac_img {
+    0%{
+      left: -600px;
+    }
+    100%{
+        left: -190px;
+    }
+}
+.awar_img{
+    height: 281px;
+    display: inline-block;
+    
+    margin-top: -15px;
+    margin-left: 150px;
+  
+}
+.logo_head{
+    display: inline;
+    position: relative;
+    font-size: 30px;
+    top: 10px;
+}
+.logo_head2{
+    display: inline;
+    position: relative;
+    font-size: 16px;
+    top: -5px;
+}
+.nav_bar{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    /* margin-top: 10px; */
+    width: 100%;
+    height: 50px;
+    background-color: green;
+    border-top-right-radius:20px;
+    border-top-left-radius: 20px;
+    box-shadow: 1px 1px 2px ;
+    padding-right: 10px;
+}
+.main_body_center{
+      margin-top: 10px;
+    display: inline-block;
+    width: 95%;
+    position: relative;
+    height:573px ;
+    background-color: rgb(223, 216, 216);
+    border-top-right-radius:20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius:20px;
+    border-bottom-left-radius: 20px;
+  
+    
+}
+.main_body{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 603px;
+}
+input{
+  outline: none;;
+   display: inline-block;
+  
+       
+}
+.search{
+    display: inline-block;
+    margin-left: 10px;
+    outline: none;;
+border: none;
+border-top-right-radius: 10px;
+
+
+}
+.search:hover{
+    color: green;
+}
+.form{
+    display: flex;
+ 
+    align-items: center;
+
+    height: 50px;
+}
+.content{
+    display: inline-block;
+    width: 100%;
+    height: 511px;
+    overflow-y:scroll;
+    margin-top: 10px;
+   
+/*   
+    background-color: rgb(223, 216, 216); */
+}
+.align{
+    display: block;
+    justify-content: center;
+}
+.main{
+    display:block;
+    /* width: 1000px; */
+}
+.left_bar{
+    display: inline-block;
+    width:50px;
+}
+.Theme{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    
+    left: 50px;
+
+}
+.home_page{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    /* top: 100px; */
+    padding-top: 40px;
+}
+.myname{
+    position: relative;
+    top: 40%;
+    left: 20%;
+    color: white;
+    font-size: 10px;
+}
+
+
+.left-sild-bar{
+    z-index: 1000;
+   display: inline-block;;
+    margin-top: 10px;
+    position: relative;
+    left: -170px;
+    width: 200px;
+    height: 583px;
+    background-color: gray;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+    
+}
+.left-sild-bar:hover{
+    color: rgb(0, 0, 0);
+    left: 0px;
+    box-shadow: 1px 5px 5px;
+    animation: leftbar 500ms ease-in-out forwards;
+
+}
+
+@keyframes leftbar{
+    0%{
+        left: -170px;
+    }
+   
+    100%{
+        left: 0px;
+    }
+}
+.menu{
+    position: relative;
+    top:30%;
+    left:85%;
+    display:inline-block;
+}
+
+
+.right_bar{
+    display: inline-block;
+    width: 100%;
+   
+}
+.main_con{
+    width: 60%;
+}
+
+
+.ad{
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 100%;
+
+}
+
+.global_covid{
+  display: flex;
+  top: 0px;
+  position: relative;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    
+}
+.global_number{
+    position: relative;
+ display: block;
+   height: 40px;
+    width: 90%;
+    top: 0px;
+    justify-content: center;
+  
+
+
+}
+.front-global{
+    font-size:30px;
+    font-family: "Dancing Script";
+    color: aliceblue;
+
+}
+.back{
+    background-color: green;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+.gobal-virus{
+    width: 100%;
+    height: 30px;
+   
+    position: relative;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 173, 0);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+.gobal-virus:hover{
+    animation:  down 500ms ease-in-out forwards;
+}
+
+@keyframes  down{
+    0%{
+        height: 30px;
+    }
+    100%{
+        height: 60px;
+    }
+}
+.gobal-virus:hover .dropdown{
+    display: block;
+    color: black;
+    animation: sddd 500ms ease-in-out forwards;
+}
+.dropdown{
+    width: 100%;
+    background-color: rgb(5, 153, 5);
+    height: 70px;
+    display: none;
+    z-index: 2000;
+
+ 
+}
+.col-4{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+
+flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+.gobal-virus_icon{
+    display: block;
+    position: relative;
+    left: 50%;
+    border: none;
+    background-color: transparent;
+}
+.gobal-virus:hover .gobal-virus_icon{
+    color: black;
+    position: relative;
+    animation: roa 500ms ease-in-out forwards;
+    
+}
+@keyframes roa{
+    0%{
+       transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(180deg);
+    }
+}
+.gobal-virus:hover .dropdown{
+    display: block;
+    color: black;
+    box-shadow: 0px 1PX 2PX 0px ;
+    animation: sddd 500ms ease-in-out forwards;
+}
+@keyframes sddd{
+    0%{ 
+       
+        top: -30px;
+    
+     height: 60px;
+    }
+ 
+    100%{
+     
+        top: 30px;
+        height: 110px;
+       
+    }
+    
+}
+.gg{
+    width: 100%;
+    height: 140px;
+}
+.corona_icon_animation{
+    display: flex;
+    left: 20px;
+    /* top: 100%; */
+    position: relative;
+    height: 60px;
+    animation: covid 10s linear infinite;;
+}
+@keyframes covid{
+
+0%{
+   transform: rotate(0deg);
+   left: 0px;
+  
+}
+
+50%{
+    transform: rotate(560deg);
+   left: 1100px;
+    }
+   100%{
+        transform: rotate(0deg);
+        left: 0px;
+       
+     }
+    
+
+}
+#covid_display{
+position: relative;
+margin-top: 60px;
+    width: 99%;
+    height: 300px;
+    /* background-color: green; */
+}
+.dis_vac{
+ 
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+
+left:20px;
+color: white;
+height:300px;
+ 
+    
+}
+.dis_vac_2{
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    left:20px;
+    color: white;
+    height:300px;
+     
+        
+    }
+.today_dis_vac{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+/* justify-content: space-evenly; */
+align-items: center;
+    color: white;
+    height:300px;
+
+}
+.inner_detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: fit-content;
+    margin-top:-20px;
+    background-color: rgb(5, 153, 5);
+    padding: 10px;
+    font-family: "Dancing Script";
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+
+}
+.inner_detail_2{
+    
+    width: 90%;
+    height: 80%;
+    margin-top:-5px;
+    background-color: rgb(5, 153, 5);
+    padding: 10px;
+    font-family: "Dancing Script";
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: fit-content;
+    padding-left: inherit;
+  
+    background-color: rgb(0, 173, 0);
+
+    
+}
+.head_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-top:11px;
+    width: 90%;
+    height: fit-content;
+    padding-left: inherit;
+  
+    background-color: rgb(0, 173, 0);
+}
+.spinner-border {
+    display: flex;
+    position: relative;
+    /* justify-content: center; */
+    align-items: center;
+    top: 200px;
+    left: 50%;
+
+}
+#drop_state{
+    outline: none;;
+    width: 100px;
+    height: 28px;
+}
+@media screen and (max-width:450px) {
+    .container{
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+    }
+    
+
+    @keyframes sddd{
+        0%{ 
+           
+            top: -30px;
+        
+         height: 30px;
+        }
+     
+        100%{
+         
+            top: 0px;
+            height: 60px;
+           
+        }
+        
+    }
+
+    @keyframes  down{
+        0%{
+            height: 10px;
+        }
+        100%{
+            height: 30px;
+        }
+    }
+    #drop_state{
+        outline: none;;
+        width: 50px;
+        height: 28px;
+    }
+    .content{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        overflow-y:scroll;
+        margin-top: 10px;
+        height: 100%;
+    }
+    .main_body_center{
+        /* margin-top: 20px; */
+      display: inline-block;
+      width: 100%;
+      position: fixed;
+      height:100%;
+      background-color: rgb(223, 216, 216);
+      border-top-right-radius:20px;
+      border-top-left-radius: 20px;
+      border-bottom-right-radius:20px;
+      border-bottom-left-radius: 20px;
+    
+      
+  }
+  .main_body{
+    display: flex;
+    align-items: center;
+    position:absolute;
+    width: 100%;
+    height: 100%;
+
+}
+.left-sild-bar{
+display: none;
+    
+}
+.corona_icon_animation{
+    display: none;
+
+}
+.dis{
+    position: relative;
+    top: 50px;
+}
+
+.vaccine_img{
+    height: 100px;
+    position: relative;
+    top: 70px;
+    left: -180px;
+    rotate: 45deg;
+    animation: vac_img 500ms ease-in-out forwards;
+    animation-delay: 200ms;
+}
+@keyframes vac_img {
+    0%{
+      left: -600px;
+    }
+    100%{
+        left: -150px;
+    }
+}
+.awar_img{
+ 
+    display: none;
+}
+.awareness{
+    width: 100%;
+  
+   margin-top: 40px;
+    height: 25%;
+    background-color: green;
+}
+
+.dis_vac{
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: -1000;
+    left:20px;
+    color: white;
+    height:300px;
+     
+        
+    }
+    .dis_vac_2{
+ 
+       
+    display: flex;
+    flex-direction: column;
+  
+    z-index: 1000;
+    left:20px;
+    color: white;
+    height:300px;
+            
+        }
+    #covid_display{
+        position: relative;
+        margin-top: 40px;
+            width: 99%;
+            height: 300px;
+            /* background-color: green; */
+        }
+        .inner_detail{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 90%;
+            height: 150px;
+            margin-top:-60px;
+            background-color: rgb(5, 153, 5);
+            padding: 10px;
+            font-family: "Dancing Script";
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            
+        
+        
+        }
+        .in_head{
+            font-size: 13px;
+        }
+        .inner_detail_2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 90%;
+            height: 150px;
+            margin-top:-60px;
+            background-color: rgb(5, 153, 5);
+            padding: 10px;
+            font-family: "Dancing Script";
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+        .head_2{
+            display: flex;
+           
+             margin-top:-90px;
+            width: 90%;
+            height: fit-content;
+            padding-left: inherit;
+          
+            background-color: rgb(0, 173, 0);
+        }
+        .addf{
+            overflow-y: scroll;
+            height: 500px;
+        }
+}
